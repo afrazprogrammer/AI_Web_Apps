@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href="{% static 'index.css' %}">
+    <title>Index Page</title>
+</head>
+<body>
+    <div class = 'main-div'>
+        <div class = 'top-div'>
+            <div class = 'title-div'>CodePal.AI</div>
+            <div class = 'menu-div'>
+                <button class = 'chat'>Open Chat</button>
+                <button class = 'code'>Test Code</button>
+                <button class = 'about'>About Us</button>
+                <button class = 'signup'>Sign Up</button>               
+            </div>
+        </div>
+        <div class = 'bottom-div'>
+            <img class = 'coding1' src = "{% static 'coding-1.png' %}">
+            <img class = 'coding2' src = "{% static 'coding-2.png' %}">
+            <img class = 'coding3' src = "{% static 'coding-3.png' %}">
+            <img class = 'cpp' src = "{% static 'c++.png' %}">
+            <img class = 'python' src = "{% static 'python.png' %}">
+            <div class = 'left-div'>
+                <h1 class = 'welcome1'>Welcome to your Coding</h1>
+                <h1 class = 'welcome2'>AssIstant.</h1>
+                <pre class = 'desc'>Our tool is aimed to help you learn Python and C++.
+Get help with Fundamentals of Programming, OOP, and 
+Data Structures.
+                </pre>
+            </div>
+            <div class = 'right-div'>
+                <div class = 'login'>Login</div>
+                <div class = 'username'><input class = 'user-in' type = 'text' placeholder="Username"></div>
+                <div class = 'password'><input class = 'pass-in' type = 'password' placeholder="Password"></div>
+                <div class = 'loginbd'><button class = 'login-button'>Login</button></div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
